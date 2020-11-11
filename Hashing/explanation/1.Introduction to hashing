@@ -1,0 +1,10 @@
+Hashing 
+is mainly used to imlement dictonary,where u have key value pairs.
+It also used to implement sets , we have only set of keys.
+
+Hashing provides search,insert,delete all three operations in O(1) times.
+
+consider a search operation ,create a phone number as a key and value as a detail of a person
+if phone number already exists it will override
+delete a key and corresponding details.
+
