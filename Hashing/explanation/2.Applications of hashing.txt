@@ -1,0 +1,37 @@
+Applications of Hashing:
+
+1. Dictionaries
+2.Database indexing
+3.Cryptography
+4.Caches
+5.Symbol tables in comilers/interpreters
+6.Routers
+7.Getting data from database
+many more
+
+1.Dictionaries: Implementing dictionaries if someone gives a word and ask whether its a valid we can check with hashing
+2.Database Indexing : They use indexing to quickly find records. -> Primary indexing
+                                                                 -> Secondary indedxing
+                                                                 These indexing can be done in 2 ways
+                                                                 1. B & B+ trees
+                                                                 2.Hashing
+                       using hashing we can build these indexing
+3.Cryptography : 
+When we log inro a website and we enter our password . if it say decent website . they will never save password in decent text form . 
+They first generate a hash out of it and store again.
+
+4.Caches :
+Browser caches,local url -> key
+              value -> data assciated with url
+              So they can quickly find out what are local storage values or the values for that particular url.
+5. Symbol tables in compilers/Interpreters
+        -> when you program u use memory variables and these variables have to be looked up quivkly whether they are valid variables 
+        or not to findout there addresses . Compilers/interpreters uses symble tables which are nothing but hashes
+        
+6. Routers :
+when routers are connected to local n/w , example home routerwhich is wifi router.it is connected to local devices and it is also connected to internet so 
+for the local devices,it needs to quickly findout the device for the given ip address that mapping typically routers store using hashing to know the device for an ip address.
+
+7.Getting dtaa from databases :
+when we write programs . We are wprking with databases , we get data from tables, this tables store data in multiple
+columns so we use these columns as keys and we gave most of the libraries as library functions to get this data of associated arrays(hashing)
